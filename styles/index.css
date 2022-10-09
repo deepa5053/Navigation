@@ -15,6 +15,21 @@ h2{
     display: flex;
     margin-left: 200px;
 }
+p{
+    font-size: 30px;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.spring-img{
+max-width: 100%;
+width: 500px;
+height: 300px;
+margin-left: 200px;
+}
+.spring{
+margin-top: 100px;
+}
 .side-nav {
     margin: 0;
     width: 150px;
