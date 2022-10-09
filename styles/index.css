@@ -30,8 +30,11 @@ h2{
     align-items: stretch;
 }
 .side-nav a:hover {
-    background-color: white;
+    background-color: pink;
     color: aliceblue;
+}
+.img{
+margin-left: 170px;
 }
 @media screen and (max-width: 700px) {
     .side-nav {
