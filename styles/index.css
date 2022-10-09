@@ -23,12 +23,30 @@ p{
 }
 .spring-img{
 max-width: 100%;
-width: 500px;
-height: 300px;
+width: 700px;
+height: 500px;
 margin-left: 200px;
 }
 .spring{
 margin-top: 100px;
+}
+.spring-climate{
+display: flex;
+flex-direction: row;
+margin-left: 200px;
+justify-content: space-between;
+}
+.march{
+color: aliceblue;
+font-size: 30px;
+}
+.april{
+color: aliceblue;
+font-size: 30px;
+}
+.may{
+color: aliceblue;
+font-size: 30px;
 }
 .side-nav {
     margin: 0;
@@ -61,8 +79,19 @@ margin-left: 170px;
     .side-nav a {float: left;}
  }
 @media screen and (max-width: 400px) {
-    .sideb-nav a {
+    .side-nav a {
       text-align: center;
       float: none;
     }
+}
+@media screen and (max-width:700px){
+    .spring-climate {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .spring-climate a {
+        float: left;
+    } 
+    
 }
