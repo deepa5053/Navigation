@@ -73,8 +73,14 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding-left: 12rem;
-width: 100%;
+width: 50%;
 height: auto;
+}
+.summer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 10rem;
 }
 @media screen and (max-width: 700px) {
     .side-nav {
