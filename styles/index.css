@@ -76,7 +76,9 @@ margin-left: 170px;
       height: auto;
       position: relative;
     }
-    .side-nav a {float: left;}
+    .side-nav a {
+        float: left;
+    }
  }
 @media screen and (max-width: 400px) {
     .side-nav a {
@@ -84,14 +86,24 @@ margin-left: 170px;
       float: none;
     }
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
     .spring-climate {
         width: 100%;
         height: auto;
-        position: relative;
+        text-align: center;
+        flex-wrap: wrap;
+        display: flex;
     }
     .spring-climate a {
         float: left;
-    } 
-    
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }    
+}
+@media screen and (max-width: 400px) {
+    .spring-climate a {
+      text-align: center;
+      float: none;
+    }
 }
